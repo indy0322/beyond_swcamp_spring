@@ -24,5 +24,4 @@ public class PokemonService {
         pokemonList.forEach(pokemon -> pokemon.attack());
     }
 
-
 }
