@@ -1,8 +1,11 @@
 package com.ohgiraffers.common;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+/* 설명. @Repository도 @Component계열이라 bean이 된다. */
+@Repository
+//@Component
 public class MemberDAO {
     public MemberDAO() {
         System.out.println("콩 될 때 이거 쓰나?");
